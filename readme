@@ -1,0 +1,20 @@
+## Script de Vérification des Numéros Identiques
+
+Script ecrit en python pour identifier et compter les numeros de telephone identiques 
+dans deux fichiers differents (un fichier excel et un fichier .sql)
+
+## Fonctionnalités
+
+-   Le script lit un fichier Excel et un fichier SQL.
+-   Il extrait les numéros de téléphone de la colonne "ACC_NBR" du fichier Excel et de la table "exclude_invoices" du fichier SQL.
+-   Ensuite, il identifie et retourne les numéros de téléphone qui sont communs et qui sont dans excel seulement aux deux sources.
+
+## Instructions
+
+-   Creer un envirronement de developpement avec la commande `python -m venv env`
+-   Assurez-vous d'avoir installé les dépendances requises en exécutant ` pip install - r requirements`.
+-   Placez le fichier Excel et le fichier SQL à vérifier dans le même répertoire que le script.
+
+## Utilisation
+
+-   Lancez le script avec la commande `python main.py`
